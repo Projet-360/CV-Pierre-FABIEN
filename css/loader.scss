@@ -12,14 +12,16 @@
     position: absolute;
     font-size: 3vw;
 		left: 50vw;
+		font-family: "Raleway";
 	}
 	.load {
     color: white;
     text-align: center;
     top: 70vh;
     position: absolute;
-    font-size: 1vw;
-    left: 50vw;
+    font-size: 5vw;
+	left: 50vw;
+	font-family: "Raleway";
 		-webkit-animation: loader-4-3 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
     animation: loader-4-3 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
 	}
@@ -29,18 +31,21 @@
 
 /* Loader 4 */
 .loader-4::after {
-  content: "&";
-  font-size: 24.5vw;
-	display: block;
-	position: absolute;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-	top: 0; left: 0;
-	bottom: 0; right: 5.5%;
-	margin: auto;
-	color: #FFF;
-	border-radius: 50%;
+  content: "Pierre FABIEN";
+  content: "Pierre FABIEN";
+  font-size: 19vw;
+  font-family: "Raleway",sans-serif;
+  line-height: 14vw;
+  display: block;
+  position: absolute;
+  text-align: left;
+  top: 28vh;
+  left: 17vw;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  border-radius: 50%;
 	-webkit-animation: loader-4-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
 	        animation: loader-4-1 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
 }
@@ -92,7 +97,7 @@
 	margin: auto;
 	height: 400px;
 	width: 400px;
-	color: #fad738;
+	color: #00adff;
 	border-radius: 50%;
 	-webkit-animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
 	        animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
@@ -123,14 +128,18 @@
 }
 
 .loader-4 span::before {
-	top: 0; left: 0vw;
-  bottom: 0; right: 0;
-	content: "Co";
-	font-size: 2vw;
+    top: 0;
+    left: -10vw;
+    bottom: 0;
+    right: 0;
+    content: "Web";
+    font-size: 10vw;
 }
 .loader-4 span::after {
-	top: 30vh;    left: -30vw;
-  bottom: 0; right: 0;
-	content: "JS";
-	font-size: 2vw;
+    top: -20vh;
+    left: -60vw;
+    bottom: 0;
+    right: 0;
+    content: "Designer";
+    font-size: 9vw;
 }
