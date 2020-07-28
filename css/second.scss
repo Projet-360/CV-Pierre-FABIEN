@@ -1,10 +1,10 @@
 .jsandco-second {
 
   .jsandco-second-js-page {
-    color: #ffdb00 !important;
+    color: #068fe9 !important;
 
     &::after {
-      background-color: #ffdb00 !important;
+      background-color: #068fe9 !important;
     }
   }
 
@@ -76,11 +76,11 @@
         }
 
         &.third {
-          transform: translate3d(-62%, 35%, 0px);
+          transform: translate3d(-120%, 130%, 0px);
         }
 
         .jsandco-second-js-box-row-content-titre {
-          color: rgb(255, 219, 0);
+          color: #068fe9;
           text-transform: uppercase;
           margin: 4px 0px;
           font-size: 30px;
@@ -193,7 +193,7 @@
   }
 
   .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.third {
-    transform: translate3d(-50%, 145%, 0px);
+    transform: translate3d(-50%, 315%, 0px);
     width: 80vw;
   }
 

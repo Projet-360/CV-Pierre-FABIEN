@@ -1,4 +1,6 @@
 .loader{
+
+	
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -14,24 +16,35 @@
 		left: 50vw;
 		font-family: "Raleway";
 	}
-	.load {
-    color: white;
-    text-align: center;
-    top: 70vh;
-    position: absolute;
-    font-size: 5vw;
-	left: 50vw;
-	font-family: "Raleway";
-		-webkit-animation: loader-4-3 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
-    animation: loader-4-3 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
-	}
 }
 
-
+.loader-4 {
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
 
 /* Loader 4 */
 .loader-4::after {
-  content: "Pierre FABIEN";
+
+  width: 66.5vw;
   content: "Pierre FABIEN";
   font-size: 19vw;
   font-family: "Raleway",sans-serif;
@@ -39,10 +52,6 @@
   display: block;
   position: absolute;
   text-align: left;
-  top: 28vh;
-  left: 17vw;
-  bottom: 0;
-  right: 0;
   margin: auto;
   color: #fff;
   border-radius: 50%;
@@ -58,88 +67,4 @@
 	0%   { transform: scale(1); opacity: 1; }
 	50%  { transform: scale(0.5); opacity: 0.5; }
 	100% { transform: scale(1); opacity: 1; }
-}
-.loader-4 span {
-	display: block;
-	position: absolute;
-	top: 0; left: 0;
-	bottom: 0; right: 0;
-	margin: auto;
-	height: 60px;
-	width: 60px;
-	-webkit-animation: loader-4-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-	        animation: loader-4-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-}
-@-webkit-keyframes loader-4-2 {
-	0%   { -webkit-transform: rotate(0deg); }
-	50%  { -webkit-transform: rotate(180deg); }
-	100% { -webkit-transform: rotate(360deg); }
-}
-@keyframes loader-4-2 {
-	0%   { transform: rotate(0deg); }
-	50%  { transform: rotate(180deg); }
-	100% { transform: rotate(360deg); }
-}
-.loader-4 span::before,
-.loader-4 span::after {
-	content: "";
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-content: stretch;
-	align-items: center;
-
-  text-align: center;
-  line-height: 60px;
-	display: block;
-	position: absolute;
-	margin: auto;
-	height: 400px;
-	width: 400px;
-	color: #00adff;
-	border-radius: 50%;
-	-webkit-animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-	        animation: loader-4-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-}
-@-webkit-keyframes loader-4-3 {
-	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
-	50%  { -webkit-transform: translate3d(-16px, 0, 0) scale(.5); }
-	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
-}
-@keyframes loader-4-3 {
-	0%   { transform: translate3d(0, 0, 0) scale(1); }
-	50%  { transform: translate3d(-16px, 0, 0) scale(.5); }
-	100% { transform: translate3d(0, 0, 0) scale(1); }
-}
-.loader-4 span::after {
-	-webkit-animation: loader-4-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-	        animation: loader-4-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
-}
-@-webkit-keyframes loader-4-4 {
-	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
-	50%  { -webkit-transform: translate3d(16px, 0, 0) scale(.5); }
-	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
-}
-@keyframes loader-4-4 {
-	0%   { transform: translate3d(0, 0, 0) scale(1); }
-	50%  { transform: translate3d(16px, 0, 0) scale(.5); }
-	100% { transform: translate3d(0, 0, 0) scale(1); }
-}
-
-.loader-4 span::before {
-    top: 0;
-    left: -10vw;
-    bottom: 0;
-    right: 0;
-    content: "Web";
-    font-size: 10vw;
-}
-.loader-4 span::after {
-    top: -20vh;
-    left: -60vw;
-    bottom: 0;
-    right: 0;
-    content: "Designer";
-    font-size: 9vw;
 }

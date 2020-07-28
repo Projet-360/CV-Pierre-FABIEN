@@ -24,14 +24,15 @@
 
         h3 {
           font-family: 'Raleway', sans-serif;
-          font-weight: normal;
+          font-weight: bold;
           text-align: center;
           margin-top: 40px;
           margin-bottom: 0px;
           font-size: xx-large;
           text-transform: uppercase;
-          color: #ffdb00;
+          color: white;
           transform: rotate(-3deg);
+          margin-bottom: 20px;          
         }
 
         .jsandco-fifth-js-box-top-box {
@@ -53,6 +54,15 @@
             align-items: center;
             width: 23vw;
             padding: 15px;
+
+            h4 {
+              width: 100%;
+              text-align: justify;
+              font-family: "Raleway",sans-serif;
+              font-size: 16px;
+              text-transform: uppercase;
+              margin: 0;
+            }
 
             img {
               width: 50px;

@@ -99,7 +99,7 @@ main {
 .scroll-indicator {
   position: fixed;
   left: 0;
-  top: 0;
+  bottom: -1px;
   right: 0;
   height: 10px;
   background: #1f1f1f;
@@ -108,7 +108,7 @@ main {
   &__line {
     height: 100%;
     width: 0;
-    background: rgb(255, 219, 0);;
+    background: #068fe9;;
     transition: width 2s ease;
     border-top-right-radius: 5px ;
     border-bottom-right-radius: 5px ;
