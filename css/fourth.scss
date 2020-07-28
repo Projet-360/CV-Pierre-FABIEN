@@ -1,0 +1,241 @@
+.jsandco-fourth {
+  height: 100vh !important;
+
+  // SCROLLMAGIC
+  .jsandco-fourth-js.fourth {
+    transform: scale(1) translate(0vw) !important;
+    position: fixed;
+    opacity: 1;
+  }
+
+  .jsandco-fourth-js.fourthOut {
+    position: fixed;
+    transform: translate(100%, -20%) !important;
+  }
+
+  .jsandco-fourth-js-page {
+    transform: rotate(0deg);
+    top: 10vh;
+    left: 5vw !important;
+    color: #297cfe;
+
+    &::after {
+      content: " ";
+      background-color: #297cfe;
+    }
+  }
+
+  // FIN SCROLLMAGIC
+
+  .jsandco-fourth-js {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+    .jsandco-fourth-js-box {
+      width: 100vw;
+      height: 100vh;
+      font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      position: fixed;
+      color: white;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: stretch;
+      align-items: center;
+    }
+  }
+
+
+
+  .slider-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    input {
+      display: none;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    opacity: 100%;
+    z-index: 900;
+    height: 50vh;
+    right: 3vw;
+    top: 20vh;
+    width: 30vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    overflow: auto;
+    overflow-y: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    border-radius: 50px;
+    margin: 0 -0.8em .5em;
+
+    .button {
+      text-align: left;
+      font-family: "Lato", sans-serif;
+      margin: 5px;
+      border-bottom: 3px solid #77b3ff;
+      transition: all .5s ease;
+
+      &:hover {
+        border-bottom: 70px solid #d6e5f8;
+        background-image: url(../Image/perso1.svg);
+        background-position: center;
+        div{
+          transform: translateY(50px);
+        }
+        .slide-dot-1-button-role {
+          color: #194881;
+          font-size: 40px;
+        }
+
+      }
+
+      .slide-dot-1-button-name {
+        font-family: 'Raleway', sans-serif;
+        font-size: small;
+        color:white;
+        transition: all .5s ease;
+      }
+
+      .slide-dot-1-button-role {
+        font-family: "Lato", sans-serif;
+        font-weight: normal;
+        font-size: x-small;
+        padding-bottom: 5px;
+        color: #78b2fb;  
+        transition: all .5s ease;      
+      }
+    }
+  }
+
+  .slide {
+    width: 70vw;
+    bottom: 0;
+    height: 100vh;
+    position: absolute;
+    opacity: 0%;
+    transition: opacity .5s ease;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  }
+
+  [id^="slide"]:checked+.slide {
+    opacity: 100%;
+    z-index: 100;
+    transition: opacity 2s ease-out;
+  }
+
+  .slide-1,
+  .slide-2,
+  .slide-3 {
+    .slide-text {
+      width: 70vw;
+      height: 70vh;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-content: stretch;
+      align-items: center;
+      margin-top: 4vh;
+
+      .slide-text-titre {
+        font-size: 25px;
+        margin-bottom: 0px;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .slide-text-soustitre {
+        margin: 0px;
+        border-top: 1px solid white;
+        font-family: 'Raleway', sans-serif;
+        font-size: x-large;
+      }
+
+      .slide-text-description {
+        padding: 15px !important;
+        font-family: 'Raleway', sans-serif;
+        width: 55vw;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    .slide-image {
+      width: 65vw;
+      height: 50vh;
+      background-size: contain;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .slide-1 {
+    .slide-image {
+      background-image: url(../Image/perso.svg);
+    }
+  }
+
+  .slide-2 {
+    .slide-image {
+      background-image: url(../Image/perso2.svg);
+    }
+  }
+
+  .slide-3 {
+    .slide-image {
+      background-image: url(../Image/perso3.svg);
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .slide-text-description {
+    font-size: 20px !important;
+  }
+  .jsandco-fourth .menu label .button .slide-dot-1-button-name {
+    font-size: xx-large;
+  }
+  .jsandco-fourth .menu label .button .slide-dot-1-button-role {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .jsandco-fourth .slide-1 .slide-text .slide-text-titre, .jsandco-fourth .slide-2 .slide-text .slide-text-titre, .jsandco-fourth .slide-3 .slide-text .slide-text-titre {
+    font-size: 45px !important;
+  }
+  .jsandco-fourth .slide-1 .slide-text .slide-text-soustitre, .jsandco-fourth .slide-2 .slide-text .slide-text-soustitre, .jsandco-fourth .slide-3 .slide-text .slide-text-soustitre {
+    font-size: 35px !important;
+  }
+
+} 
+
+@media screen and (min-width: 1300px) {
+  .slide-text-description {
+    font-size: 25px !important;
+  }
+} 

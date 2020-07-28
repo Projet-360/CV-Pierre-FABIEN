@@ -1,0 +1,227 @@
+.jsandco-second {
+
+  .jsandco-second-js-page {
+    color: #ffdb00 !important;
+
+    &::after {
+      background-color: #ffdb00 !important;
+    }
+  }
+
+  .jsandco-second-js {
+    z-index: 4;
+
+
+
+    .jsandco-second-js-box {
+      width: 100vw;
+      height: 100vh;
+      font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      position: fixed;
+      color: white;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: stretch;
+      align-items: center;
+
+      .jsandco-second-js-box-row-svg {
+        svg {
+          position: fixed;
+          content: "";
+          width: 200px;
+          height: 200px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          transform: translate(-28%, -61%);
+          transition: all 1s ease;
+          -moz-box-shadow: 0px 0px 5px 1px #000000;
+          -webkit-box-shadow: 0px 0px 5px 1px #000000;
+          -o-box-shadow: 0px 0px 5px 1px #000000;
+          box-shadow: 0px 0px 5px 1px #000000;
+          filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=5);
+
+        }
+
+        path {
+          fill:url(#logo-gradient);
+          transition: all 2s ease;
+          stop {
+            -webkit-transition: 2s ease;
+            transition: 2s ease;
+          }
+        }
+
+        rect {
+          fill: #ffdb00;
+          transition: all 2s ease;
+
+        }
+      }
+
+      .jsandco-second-js-box-row-content {
+        width: 25vw;
+        position: absolute;
+
+
+        &.first {
+          transform: translate3d(42%, -60%, 0px);
+        }
+
+        &.second {
+          transform: translate3d(-120%, -130%, 0px);
+        }
+
+        &.third {
+          transform: translate3d(-62%, 35%, 0px);
+        }
+
+        .jsandco-second-js-box-row-content-titre {
+          color: rgb(255, 219, 0);
+          text-transform: uppercase;
+          margin: 4px 0px;
+          font-size: 30px;
+          transition: all 1s ease;
+          font-family: 'Raleway', sans-serif;
+          font-weight: normal;
+        }
+
+        .jsandco-second-js-box-row-content-description {
+          color: white;
+          margin: 0;
+          font-size: 22px;
+          font-family: 'Raleway', sans-serif;
+          text-align: justify;
+        }
+      }
+    }
+  }
+  .jsandco-second-js-page{
+    left: -5vw;
+  }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+  .jsandco-second-js-box {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-content: stretch !important;
+    align-items: center !important;
+
+    .jsandco-second-js-box-content {
+      margin: 0px 20px;
+    }
+
+    .jsandco-second-js-box-content-titre {
+      margin: 10px 0px !important;
+      font-size: 30px !important;
+      width: 250px;
+      text-align: center;
+    }
+
+    .jsandco-second-js-box-content-description {
+      width: 250px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .jsandco-second-js-box-content-titre {
+    font-size: 26px !important;
+  }
+
+  .jsandco-second-js-box-content-description {
+    font-size: 12px !important;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.second {
+    transform: translate3d(-127%, -83%, 0px);
+    width: 30vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.first {
+    transform: translate3d(50%, -85%, 0px);
+    width: 30vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.third {
+    transform: translate3d(-64%, 34%, 0px);
+    width: 60vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-svg svg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content {
+    width: 90vw;
+    position: absolute;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content .jsandco-second-js-box-row-content-description {
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+  }
+}
+
+
+
+@media screen and (max-width: 780px) {
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.second {
+    transform: translate3d(-50%, -180%, 0px);
+    width: 80vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.first {
+    transform: translate3d(-50%, 45%, 0px);
+    width: 80vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.third {
+    transform: translate3d(-50%, 145%, 0px);
+    width: 80vw;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-svg svg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content {
+    width: 90vw;
+    position: absolute;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content .jsandco-second-js-box-row-content-description {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+  }
+
+  .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content .jsandco-second-js-box-row-content-titre {
+    font-size: 30px;
+  }
+
+
+
+  .jsandco-first .jsandco-first-js .jsandco-first-js-text .jsandco-first-js-text-title {
+    font-size: small;
+  }
+}

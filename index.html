@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>
+    js and co
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="Author: A.N. Author,
+    Illustrator: P. Picture, Category: Books, Price: $17.99,
+    Length: 784 pages">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body-jsandco">
+  <div class="scroll-indicator">
+    <div class="scroll-indicator__line"></div>
+  </div>
+  <div class="loader">
+    <div class="loader-4 center"><span></span>
+      <p> <br> <div class="load">Chargement</div></p>
+    </div>
+  </div>
+
+  <nav class="jsandco-navigation">
+    <ul class="jsandco-navigation-list">
+
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#first">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#second">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#third">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#fourth">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#fifth">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-left">
+        <a class="jsandco-navigation-list-item-link" href="#fifth">
+          <i class="fas fa-2x fa-caret-left"></i>
+        </a>
+      </li>
+
+      <li class="jsandco-navigation-list-item">
+        <div class="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </li>
+      <ul class="menu">
+       
+        <li class="menu-list" onclick="document.location.href='#first'">
+          <a class="menu-list-a" href="#first">Accueil</a></li>
+        <li class="menu-list" onclick="document.location.href='#second'">
+          <a class="menu-list-a" href="#second">La mission</a></li>
+        <li class="menu-list" onclick="document.location.href='#third'">
+          <a class="menu-list-a" href="#third">Nos armes</a></li>
+        <li class="menu-list" onclick="document.location.href='#fourth'">
+          <a class="menu-list-a" href="#fourth">La guilde</a></li>
+        <li class="menu-list" onclick="document.location.href='#fifth'">
+          <a class="menu-list-a" href="#fifth">Le réseau</a></li>
+        <li class="menu-list" onclick="document.location.href='#sixth'">
+          <a class="menu-list-a" href="#sixth">Contact</a></li>
+
+          <div class="menu-board">
+            <div class="menu-board-item">
+              <img src="./icon/js.svg" alt="">
+              <h2>News</h2>
+              <p>Lorem ipsum dolor sit, Lorem ipsum dolor sit,</p>
+            </div>
+            <div class="menu-board-item">
+              <img src="./icon/js.svg" alt="">
+              <h2>News</h2>
+              <p>Lorem ipsum dolor sit, Lorem ipsum dolor sit,</p>
+            </div>
+            <div class="menu-board-item">
+              <img src="./icon/js.svg" alt="">
+              <h2>News</h2>
+              <p>Lorem ipsum dolor sit, Lorem ipsum dolor sit,</p>
+            </div>
+            <div class="menu-board-item">
+              <img src="./icon/js.svg" alt="">
+              <h2>News</h2>
+              <p>Lorem ipsum dolor sit, Lorem ipsum dolor sit,</p>
+            </div>       
+          </div>
+      </ul>
+
+      <li class="jsandco-navigation-list-item jnli-right">
+        <a class="jsandco-navigation-list-item-link" href="#second">
+          <i class="fas fa-2x fa-caret-right"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-right">
+        <a class="jsandco-navigation-list-item-link" href="#third">
+          <i class="fas fa-2x fa-caret-right"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-right">
+        <a class="jsandco-navigation-list-item-link" href="#fourth">
+          <i class="fas fa-2x fa-caret-right"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-right">
+        <a class="jsandco-navigation-list-item-link" href="#fifth">
+          <i class="fas fa-2x fa-caret-right"></i>
+        </a>
+      </li>
+      <li class="jsandco-navigation-list-item jnli-right">
+        <a class="jsandco-navigation-list-item-link" href="#sixth">
+          <i class="fas fa-2x fa-caret-right"></i>
+        </a>
+      </li>
+  </nav>
+
+  <main role="main">
+    <section class="jsandco-first" id="first">
+      <div class="jsandco-first-js">
+        <p class="jsandco-first-js-title">
+          Pierre <br> <span style="color:white;">FABIEN</span> 
+        </p>
+        <div class="jsandco-first-js-text">
+          <span>- FrontEnd Développeur -</span>
+          <p class="jsandco-first-js-text-title">
+            Design - UX - Dev
+          </p>
+          <a class="jsandco-navigation-list-item-link" href="#second">Continuer</a>
+        </div>
+        <div class="jsandco-first-js-page">#curriculum vitae</div>
+      </div>
+    </section>
+
+    <section class="jsandco-second" id="second">
+      <div class="jsandco-second-js">
+        <div class="jsandco-second-js-box">
+          <div class="jsandco-second-js-box-row">
+            <div class="jsandco-second-js-box-row-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
+                <defs>
+
+                  <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+                    <stop offset="0%" stop-color="#000000">
+                      <animate attributeName="stop-color" values="#000000; #1f47b6; #000000" dur="20s"
+                        repeatCount="indefinite">
+                      </animate>
+                    </stop>
+
+                    <stop offset="100%" stop-color="#1f47b6">
+                      <animate attributeName="stop-color" values="#1f47b6; #000000; #1f47b6" dur="20s"
+                        repeatCount="indefinite">
+                      </animate>
+                    </stop>
+                  </linearGradient>
+
+                </defs>
+
+                <rect width="630" height="630" fill="#f7df1e" />
+                <path
+                  d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z" />
+              </svg>
+            </div>
+            <div class="jsandco-second-js-box-row-content first">
+              <h3 class="jsandco-second-js-box-row-content-titre">Design</h3>
+              <p class="jsandco-second-js-box-row-content-description">
+                C'est avant tout pour cela que je me suis investi dans le web.
+                Je me concentre sur la recherche de designs et d'interactions originales.
+                Les performances ainsi que les bonnes pratiques du métier sont maitrisées.
+              </p>
+            </div>
+            <div class="jsandco-second-js-box-row-content second">
+              <h3 class="jsandco-second-js-box-row-content-titre">7 années</h3>
+              <p class="jsandco-second-js-box-row-content-description">
+                C'est à l'age de 20 ans que je me consacre serieusement dans la création d'interface web.
+                j'ai pu expérimenter plusieurs technologies tel que React, Meteor, Symfony, Wordpress, Pretashop...
+                Au fil des années, j'ai dirigé ma spécialité sur l'animation web.
+              </p>
+            </div>
+            <div class="jsandco-second-js-box-row-content third">
+              <h3 class="jsandco-second-js-box-row-content-titre">Dev</h3>
+              <p class="jsandco-second-js-box-row-content-description">
+                J'ai avant tout commencé le dev avec PHP. Mon site est réalisé avec symfony 4.
+                Depuis ces deux denières années je me tourne vers le fullstack JS.
+                L'apprentissage du back est pour moi une approche naturelle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="jsandco-second-js-page">#Mes forces</div>
+      </div>
+    </section>
+
+    <section class="jsandco-third" id="third">
+      <div class="jsandco-third-js">
+        <div class="jsandco-third-js-box">
+          <div class="jsandco-third-js-box-content">
+            <h2 class="jsandco-third-js-box-content-title">Dev Designer ? <br> Et puis quoi encore !</h2>
+            <h4 class="jsandco-third-js-box-content-subtitle">Une association 1901 au service des développeurs et des
+              entrepreneurs.</h4>
+
+
+            <div class="jsandco-third-js-box-content-wrapper">
+
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                PHP <br> { <br>Wordpress,<br> Symfony,<br> ...<br>}
+                
+              </div>
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                JS <br> { <br>React,<br> Svelte,<br> nodeJs<br>}                
+              </div>
+
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                CSS <br> { <br>Sass,<br> CSS3,<br> Bootstrap<br>}                
+              </div>
+
+            </div>
+
+            <div class="jsandco-third-js-box-content-wrapper">
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                PhotoShop
+                
+              </div>
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                Illustrator
+                
+              </div>
+              <div class="jsandco-third-js-box-content-wrapper-item">
+                After Effect
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="jsandco-third-js-page">#Mes armes</div>
+      </div>
+    </section>
+
+    <section class="jsandco-fourth" id="fourth">
+      <div class="jsandco-fourth-js">
+        <div class="jsandco-fourth-js-box">
+          <div class="slider-container">
+            <div class="menu">
+              <label for="slide-dot-1">
+                <div class="button">
+                  <div class="slide-dot-1-button-name">Projet360.com</div>
+                  <div class="slide-dot-1-button-role">Site Freelance</div>
+                </div>
+              </label>
+              <label for="slide-dot-2">
+                <div class="button">
+                  <div class="slide-dot-1-button-name">CGOfficiel.fr</div>
+                  <div class="slide-dot-1-button-role">Amadeus mobile</div>
+                </div>
+              </label>
+              <label for="slide-dot-3">
+                <div class="button">
+                  <div class="slide-dot-1-button-name">Projet360.com Refonte</div>
+                  <div class="slide-dot-1-button-role">Site NewTech</div>
+                </div>
+              </label>
+              <label for="slide-dot-1">
+                <div class="button">
+                  <div class="slide-dot-1-button-name">ApyPlay</div>
+                  <div class="slide-dot-1-button-role">Start-up</div>
+                </div>
+              </label>
+              <label for="slide-dot-2">
+                <div class="button">
+                  <div class="slide-dot-1-button-name">Midi5</div>
+                  <div class="slide-dot-1-button-role">Restaurant</div>
+                </div>
+              </label>
+              
+            </div>
+
+            <input id="slide-dot-1" type="radio" name="slides" checked>
+            <div class="slide slide-1">
+              <div class="slide-text">
+                <h4 class="slide-text-titre">Jimy Simonklein Angély</h4>
+                <h5 class="slide-text-soustitre">Président</h5>
+                <p class="slide-text-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce erat velit,
+                  commodo eget cursus placerat, euismod eget arcu. Suspendisse potenti.
+                  Mauris dignissim rutrum dolor eu finibus. Donec consectetur fringilla posuere.
+                  Donec ac placerat libero. Cras ex justo, porta quis dictum ut, volutpat ac mi.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                  In nisi nunc, accumsan non urna sit amet,
+                </p>
+              </div>
+              <div class="slide-image"></div>
+            </div>
+
+            <input id="slide-dot-2" type="radio" name="slides">
+            <div class="slide slide-2">
+              <div class="slide-text">
+                <h4 class="slide-text-titre">Olivier MANGIN</h4>
+                <h5 class="slide-text-soustitre">Trésorier</h5>
+                <p class="slide-text-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce erat velit,
+                  commodo eget cursus placerat, euismod eget arcu. Suspendisse potenti.
+                  Mauris dignissim rutrum dolor eu finibus. Donec consectetur fringilla posuere.
+                  Donec ac placerat libero. Cras ex justo, porta quis dictum ut, volutpat ac mi.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                  In nisi nunc, accumsan non urna sit amet,
+                </p>
+              </div>
+              <div class="slide-image"></div>
+            </div>
+
+            <input id="slide-dot-3" type="radio" name="slides">
+            <div class="slide slide-3">
+              <div class="slide-text">
+                <h4 class="slide-text-titre">Francois AUBEUT</h4>
+                <h5 class="slide-text-soustitre">Développeur</h5>
+                <p class="slide-text-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce erat velit,
+                  commodo eget cursus placerat, euismod eget arcu. Suspendisse potenti.
+                  Mauris dignissim rutrum dolor eu finibus. Donec consectetur fringilla posuere.
+                  Donec ac placerat libero. Cras ex justo, porta quis dictum ut, volutpat ac mi.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                  In nisi nunc, accumsan non urna sit amet,
+                </p>
+              </div>
+              <div class="slide-image"></div>
+            </div>
+          </div>
+        </div>
+        <div class="jsandco-fourth-js-page">#La Guilde</div>
+      </div>
+    </section>
+    <section class="jsandco-fifth" id="fifth">
+      <div class="jsandco-fifth-js">
+        <div class="jsandco-fifth-js-box">
+          <!-- <div class="jsandco-fifth-js-box-top">
+            <h3>Où sommes nous ?</h3>
+            <div class="jsandco-fifth-js-box-top-box">
+              <div class="jsandco-fifth-js-box-top-box-item">
+                <img src="https://jsandco.fr/social/meetup.svg" alt="">
+                <p>
+                  Du lighting talk au hackaton, en passant par la formation ou le retour d'expérience. Nous organisons
+                  de nombreux évènements tout au long de l'année sur des sujets variés autour du web.
+                </p>
+              </div>
+              <div class="jsandco-fifth-js-box-top-box-item">
+                <img style="filter: invert(1);" src="https://jsandco.fr/social/github.svg" alt="">
+                <p>
+                  Notre compte Github contient nos packages mis en communs, le code de ce site internet mais également
+                  certains boilerplates en javascript. Nos cours et formations seront aussi mis a disposition dans cet
+                  espace commun.
+                </p>
+              </div>
+              <div class="jsandco-fifth-js-box-top-box-item">
+                <img src="https://jsandco.fr/social/facebook.svg" alt="">
+                <p>
+                  Rejoignez nous sur facebook, nous partageons les évènements sur notre page. Mais également des
+                  articles intéressants sur le développement web et l'entreprenariat. N'hésitez pas à nous contacter via
+                  cette page !
+                </p>
+              </div>
+            </div>
+          </div> -->
+          <div class="jsandco-fifth-js-box-bottom">
+            <h3>Nos partenaires</h3>
+            <div class="jsandco-fifth-js-box-bottom-box">
+              <div class="jsandco-fifth-js-box-bottom-box-row">
+                <img src="Image/partner/lamelee.svg" alt="">
+                <img src="Image/partner/lacantine.svg" alt="">
+                <img src="Image/partner/txm.svg" alt="">
+              </div>
+              <div class="jsandco-fifth-js-box-bottom-box-row">
+                <img src="Image/partner/steadycook.svg" alt="">
+                <img src="Image/partner/myopencity.svg" alt="">
+                <img style="filter: invert(1);" src="Image/partner/mexar.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jsandco-fifth-js-page">#Le Réseau</div>
+      </div>
+    </section>
+
+    <section class="jsandco-sixth" id="sixth">
+      <div class="jsandco-sixth-js">
+        <div class="jsandco-sixth-js-box">
+          <p class="jsandco-sixth-js-box-title">CONTACTEZ-NOUS :</p>
+          <p class="jsandco-sixth-js-box-text">CONTACT<span style="color:white;">@</span>JSANDCO.ORG</p>
+          <div class="jsandco-sixth-js-box-design">
+            <p>Site réalisé <br> et Designé par :</p>
+
+            <img src="Image/partner/projet360.svg" alt="">
+          </div>
+        </div>
+        <div class="jsandco-sixth-js-page">#Contact</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="./js/index.js"></script>
+
+  <script src="./js/first.js"></script>
+  <script src="./js/second.js"></script>
+  <script src="./js/third.js"></script>
+  <script src="./js/fourth.js"></script>
+  <script src="./js/fifth.js"></script>
+  <script src="./js/sixth.js"></script>
+
+  <script src="./js/navigation.js"></script>
+  <script src="./js/svg.js"></script>
+</body>
+
+</html>

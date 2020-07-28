@@ -1,0 +1,48 @@
+.jsandco-first {
+  .jsandco-first-js {
+    top: 0; 
+    z-index: 0;
+
+
+
+    .jsandco-first-js-title {
+      font-size: 19vw;
+      font-family: 'Raleway', sans-serif;
+      color: #1f1f1f;
+      line-height: 14vw;
+    }
+
+    .jsandco-first-js-text {
+      font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      transform: translate(0px, 36vh);
+      text-transform: uppercase;
+
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: stretch;
+      align-items: center;
+
+      .jsandco-first-js-text-title {
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .jsandco-navigation-list-item-link {
+        background: black;
+        color: rgb(255, 219, 0);
+        font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;   
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
