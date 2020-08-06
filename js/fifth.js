@@ -35,7 +35,7 @@ FifthInTM.add([
     opacity: 0,
     x: "-110%",
     y: "150%",
-    scale: 0.9, 
+    scale: 1, 
     ease: Linear.easeNone,
     force3D: false
   }, {

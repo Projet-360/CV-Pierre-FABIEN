@@ -6,10 +6,13 @@
 
 
     .jsandco-first-js-title {
-      font-size: 19vw;
-      font-family: 'Raleway', sans-serif;
-      color: #1f1f1f;
-      line-height: 14vw;
+      width: 40vw;
+    }
+
+    @media screen and (max-width: 580px) {
+      .jsandco-first-js-title {
+        width: 70vw;
+      }
     }
 
     .jsandco-first-js-text {

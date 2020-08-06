@@ -96,6 +96,14 @@
           font-family: 'Raleway', sans-serif;
           text-align: justify;
         }
+
+        .jsandco-second-js-box-row-content-description.coordonnées {
+          text-align: left;
+        }
+
+        .jsandco-second-js-box-row-content-description.competences {
+          text-align: left;
+        }
       }
     }
   }
@@ -156,7 +164,7 @@
   }
 
   .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.third {
-    transform: translate3d(-64%, 34%, 0px);
+    transform: translate3d(-64%, 100%, 0px);
     width: 60vw;
   }
 
@@ -193,7 +201,7 @@
   }
 
   .jsandco-second .jsandco-second-js .jsandco-second-js-box .jsandco-second-js-box-row-content.third {
-    transform: translate3d(-50%, 315%, 0px);
+    transform: translate3d(-50%, 300%, 0px);
     width: 80vw;
   }
 

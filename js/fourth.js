@@ -37,7 +37,7 @@ FourthTM.add([
     force3D: false,
     ease: Linear.easeNone,
   }, {
-    scale: 0.99,
+    scale: 1,
     x: "0%",
     y: "0%",
     ease: Linear.easeNone,
@@ -61,7 +61,7 @@ FourthOutTM.add([
     ease: Linear.easeNone,
     force3D: false
   }, {
-    scale: 0.99,
+    scale: 1,
     x: "100%",
     y: "-150%",
     ease: Linear.easeNone,
