@@ -94,7 +94,6 @@
 
       &:hover {
         border-bottom: 70px solid #d6e5f8;
-        background-image: url(../Image/perso1.svg);
         background-position: center;
         div{
           transform: translateY(50px);
@@ -189,24 +188,6 @@
       background-size: contain;
       background-position: center bottom;
       background-repeat: no-repeat;
-    }
-  }
-
-  .slide-1 {
-    .slide-image {
-      background-image: url(../Image/perso.svg);
-    }
-  }
-
-  .slide-2 {
-    .slide-image {
-      background-image: url(../Image/perso2.svg);
-    }
-  }
-
-  .slide-3 {
-    .slide-image {
-      background-image: url(../Image/perso3.svg);
     }
   }
 }
