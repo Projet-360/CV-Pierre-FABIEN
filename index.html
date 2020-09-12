@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="lazysizes.min.js" async></script>
 </head>
 
 <body class="body-jsandco">
@@ -22,7 +23,7 @@
 
   <div class="loader">
     <div class="loader-4 center">
-      <img class="loader-4-img " src="./icon/projet360Logo.svg" alt="">
+      <img class="lazyload loader-4-img " data-src="./icon/projet360Logo.svg" alt="">
     </div>
   </div>
 
@@ -375,7 +376,7 @@
             <input id="slide-dot-1" type="radio" name="slides" checked>
             <div class="slide slide-1">
               <div class="slide-text">
-                <img src="./icon/web-print-full-image-compétences-photoshop-projet360-Toulouse.webp" alt="">
+                <img data-src="./icon/web-print-full-image-compétences-photoshop-projet360-Toulouse.webp" class="lazyload" alt="">
                 <p class="slide-text-description">
                   Voici l'ancien site de projet360 Développé sur Symfony 4. Depuis je suis passé du coté obscur, le fullstack JS.
                 </p>
@@ -386,7 +387,7 @@
             <input id="slide-dot-2" type="radio" name="slides">
             <div class="slide slide-2">
               <div class="slide-text">
-                <img class="cgofficiel-projet360" src="./icon/cgofficiel-projet360-Toulouse-31000-Agence-de-communication-360.webp" alt="">
+                <img class="lazyload cgofficiel-projet360" data-src="./icon/cgofficiel-projet360-Toulouse-31000-Agence-de-communication-360.webp" alt="">
                 <p class="slide-text-description">
                   Réalisation d'un site de vente de carte grise et son blog chez Amadeus mobile. Logo, charte graphique, UX design, SEO.
                 </p>
@@ -399,7 +400,7 @@
               <div class="slide-text">
                 <h4 class="slide-text-titre">ApyPlay</h4>
                 <h5 class="slide-text-soustitre">Play2Events Animations</h5>
-                <img src="./icon/logoApyplay.svg" alt="">
+                <img data-src="./icon/logoApyplay.svg" class="lazyload" alt="">
                 <p class="slide-text-description">
                   Play2Events Animations est une start-up pour qui j'ai réalisé sur React l'intégration de leur design.
                 </p>
@@ -412,7 +413,7 @@
                 <h4 class="slide-text-titre">Midi5</h4>
                 <h5 class="slide-text-soustitre">Carte Menu et autre</h5>
               </div>
-              <img class="midi5-projet360" src="./icon/midi52-image-competences-photoshop-projet360-Toulouse.webp" alt="">
+              <img class="lazyload midi5-projet360" data-src="./icon/midi52-image-competences-photoshop-projet360-Toulouse.webp" alt="">
             </div>
           </div>
         </div>
@@ -487,6 +488,7 @@
 
   <script src="./js/navigation.js"></script>
   <script src="./js/svg.js"></script>
+
 </body>
 
 </html>
