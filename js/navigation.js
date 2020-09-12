@@ -33,6 +33,14 @@ var ourScene = new ScrollMagic.Scene({
     .setClassToggle('.jnli-right a[href="#fifth"]', 'active')
     .addTo(Navigation)
 
+var ourScene = new ScrollMagic.Scene({
+        triggerElement: '#fifth',
+        duration: "20%",
+        triggerHook: 0.01,
+    })
+    .setClassToggle('.jnli-right a[href="#sixth"]', 'active')
+
+    .addTo(Navigation)
 
 
 
@@ -80,7 +88,13 @@ var ourScene = new ScrollMagic.Scene({
     .setClassToggle('.jnli-left a[href="#fourth"]', 'active')
     .addTo(Navigation)
 
-
+var ourScene = new ScrollMagic.Scene({
+        duration: "150%",
+        triggerElement: '.jsandco-sixth',
+        triggerHook: 0.8,
+    })
+    .setClassToggle('.jnli-left a[href="#fifth"]', 'active')
+    .addTo(Navigation)
 
 
 

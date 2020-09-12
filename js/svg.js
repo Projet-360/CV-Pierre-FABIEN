@@ -51,6 +51,14 @@
   ]);
 
   var ourScene = new ScrollMagic.Scene({
+          triggerElement: '.jsandco-sixth',
+          duration: '100%',
+          triggerHook: 1,
+      })
+      .setTween(SvgTM3)
+      .addTo(GeneralSM)
+
+  var ourScene = new ScrollMagic.Scene({
           triggerElement: '.jsandco-fourth',
           triggerHook: .8,
       })

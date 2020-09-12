@@ -67,6 +67,13 @@ window.onload = function () {
     .setClassToggle(".body-jsandco", "fifth")
     .addTo(GeneralSM)
 
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.jsandco-sixth',
+      triggerHook: 0.9,
+    })
+    .setClassToggle(".body-jsandco", "sixth")
+    .addTo(GeneralSM)
+
 
 
 
